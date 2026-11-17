@@ -107,7 +107,7 @@ The expected error is caught locally so execution continues. Unexpected top-leve
 
 ## AI use disclosure
 
-OpenAI Codex assisted with interpreting the assignment, writing the TypeScript implementation, configuration, tests, GitHub Actions workflow, and README, and running verification and publication commands. The implementation uses in-memory asynchronous operations for educational purposes. Review the source and run `npm run verify` and `npm start` before submission; students should understand and be able to explain the code they submit.
+OpenAI Codex assisted with interpreting the assignment, writing the TypeScript implementation, configuration, tests, GitHub Actions workflow, and README, and running verification and publication commands. The implementation uses in-memory asynchronous operations for educational purposes.
 
 ## Publish future changes
 

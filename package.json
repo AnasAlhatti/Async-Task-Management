@@ -1,0 +1,23 @@
+{
+  "name": "async-task-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Session 2 assignment: asynchronous task management with TypeScript and ESM",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "npm run build && node dist/src/app.js",
+    "dev": "tsx watch src/app.ts",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "verify": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
